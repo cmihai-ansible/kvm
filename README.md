@@ -23,12 +23,11 @@ Role Variables
 --------------
 
 ```
-kvm_remove_packages: true
 kvm_enable_service: true
 kvm_enable_selinux: true
-kvm_firewall_configure: true
-kvm_firewall_rules:
-  - service:
+kvm_users:
+ - user: devops
+   group: libvirt
 ```
 
 Dependencies
