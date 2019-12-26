@@ -3,7 +3,7 @@
 command:
   help:
     exit-status: 0
-    exec: "systemctl is-active kvm"
+    exec: "systemctl is-active libvirtd"
     stdout:
       - "/active/"
     stderr: []
