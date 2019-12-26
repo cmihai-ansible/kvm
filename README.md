@@ -8,7 +8,7 @@ kvm
 Ansible galaxy:
 ---------------
 
-[https://galaxy.ansible.com/crivetimihai/kvm(https://galaxy.ansible.com/crivetimihai/kvm)
+[https://galaxy.ansible.com/crivetimihai/kvm](https://galaxy.ansible.com/crivetimihai/kvm)
 
 ```bash
 ansible-galaxy install crivetimihai.kvm
