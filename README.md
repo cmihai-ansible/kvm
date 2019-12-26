@@ -50,11 +50,11 @@ Example Playbook
       import_role:
         name: crivetimihai.kvm
       vars:
-        kvm_remove_packages: true
         kvm_enable_service: true
-        kvm_firewall_configure: true
-        kvm_firewall_rules:
-          - service:
+        kvm_enable_selinux: true
+        kvm_users:
+         - user: devops
+           group: libvirt
       tags: kvm
 ```
 
