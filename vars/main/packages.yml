@@ -7,6 +7,8 @@ _kvm_packages_remove:
   CentOS_8: []
   RedHat_8: []
   Fedora_31: []
+  Debian_10: []
+  Ubuntu_18: []
 
 # Prereq packages: they get installed first
 _kvm_packages_prereq:
@@ -18,6 +20,8 @@ _kvm_packages_prereq:
   CentOS_8: []
   RedHat_8: []
   Fedora_31: []
+  Debian_10: []
+  Ubuntu_18: []
 
 # Install packages
 _kvm_packages_install:
@@ -88,3 +92,17 @@ _kvm_packages_install:
     - libvirt-nss
     - virt-install
     - genisoimage
+  Debian_10:
+    - qemu-kvm
+    - libvirt-bin
+    - libvirt-clients
+    - virtinst
+    - bridge-utils
+    - cpu-checker
+  Ubuntu_18:
+    - qemu-kvm
+    - libvirt-bin
+    - libvirt-clients
+    - virtinst
+    - bridge-utils
+    - cpu-checker

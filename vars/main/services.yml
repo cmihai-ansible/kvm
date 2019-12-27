@@ -12,3 +12,7 @@ _kvm_services_enable:
     - libvirtd
   Fedora_31:
     - libvirtd
+  Debian_10:
+    - libvirtd
+  Ubuntu_18:
+    - libvirtd
