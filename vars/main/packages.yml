@@ -94,14 +94,14 @@ _kvm_packages_install:
     - genisoimage
   Debian_10:
     - qemu-kvm
-    - libvirt-bin
+    - libvirt-daemon-system
     - libvirt-clients
     - virtinst
     - bridge-utils
     - cpu-checker
   Ubuntu_18:
     - qemu-kvm
-    - libvirt-bin
+    - libvirt-daemon-system
     - libvirt-clients
     - virtinst
     - bridge-utils
