@@ -37,7 +37,7 @@ kvm_packages_repos: "{{ _kvm_packages_repos['all']
   | union ( _kvm_packages_repos[my_os]
   | default([]) ) }}"
 kvm_packages_prereq: "{{ _kvm_packages_prereq['all']
-  | union ( _kvm_packages_prepreq[my_os]
+  | union ( _kvm_packages_prereq[my_os]
   | default([]) ) }}"
 kvm_packages_install: "{{ _kvm_packages_install['all']
   | union ( _kvm_packages_install[my_os]
