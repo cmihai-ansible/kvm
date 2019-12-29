@@ -1,11 +1,6 @@
 # Molecule managed
 ---
-command:
-  help:
-    exit-status: 0
-    exec: "systemctl is-active libvirtd"
-    stdout:
-      - "/active/"
-    stderr: []
-    timeout: 10000      # in milliseconds
-    skip: false
+service:
+  libvirtd:
+    enabled: true
+    running: true
